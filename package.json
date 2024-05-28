@@ -8,4 +8,12 @@
   },
   "author": "",
   "license": "ISC"
+
+
+"publishConfig": {
+  "Linish2020:ghcr": "https://npm.pkg.github.com"
+}
+
+
+
 }
