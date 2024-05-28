@@ -1,19 +1,23 @@
 {
-  "name": "linish2020-ghcr",
+  "name": "linish2020-npm",
   "version": "1.0.0",
-  "description": "This is for testing purpose",
+  "description": "This is for testing",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Linish2020/ghcr.git"
+  },
   "author": "",
-  "license": "ISC"
-
-
-"publishConfig": {
-  "Linish2020:ghcr": "https://npm.pkg.github.com"
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Linish2020/ghcr/issues"
+  },
+  "homepage": "https://github.com/Linish2020/ghcr#readme",
+  "publishConfig": {
+    "@Linish2020:registry": "https://npm.pkg.github.com"
+  }
 }
 
-
-
-}
